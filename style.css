@@ -1,7 +1,15 @@
+body {
+    color: white;
+    background-color: #1F2937;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 125px;
+    padding-left: 20%;
+   
+    
 }
 ul {
     display: flex;
@@ -10,25 +18,35 @@ ul {
     
 }
 li {
-    
+    font-size: 18px;
    padding: 16px;
 }
 .top {
     display: flex;
-    justify-content: space-around;
-
+    margin: 35px;
+    padding-left: 15%;
+  
 }
-.I {
+.top .I {
     width: 400px;
     height: 200px;
+    border:none;
+    border-radius: 0%;
 }
 .left {
     width:400px ;
+    
+    
 }
+
 .center {
     display: flex;
+    padding-left: 20%;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    color: #1F2937;
+    height: 400px;
     
     
 }
@@ -41,8 +59,72 @@ li {
     display: flex;
     width: 100px;
     flex-wrap: wrap;
+    margin: 16px;
+    
 }
 img {
     width: 100px;
     height: 100px;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+.lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 24px;
+   padding: 65px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+}
+.quote {
+    width: 500px;
+}
+.credit {
+   padding-left: 25%;
+   padding-top: 15px;
+   font-weight: bold;
+    
+}
+.total{
+    display: flex;
+    margin: 50px;
+    padding: 16px;
+    border-radius: 5px;
+   width: 600px;
+   background-color: #266fe6;
+   font-size: 12px;
+   
+}
+button{
+    width: 80px;
+    height: 25px;
+    color: white;
+    background-color: #266fe6;
+    font-weight: bold;
+border-radius: 5px;
+}
+.end {
+    display: flex;
+    padding-left: 35%;
+    align-self: center;
+    padding-top:10px ;
+}
+h3 {
+    padding-right: 25%;
+    font-size: 24px;
+}
+.lowerbox {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    
+}
+.bottom {
+   font-weight: bold;
+   font-size: 18px;
+ 
 }
